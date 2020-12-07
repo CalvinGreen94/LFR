@@ -79,22 +79,22 @@ def moving_100average(a, n=100) :
 #     time.sleep(1)
 #     return historicData
 # history('etc-usd')
-def profit_target(token,current_holdings,target_percentage):
-    token = token
-    print('\n\n {} target'.format(token))
-    current_holdings = current_holdings
-    target_percentage = current_holdings * .3
-    total_target = current_holdings+target_percentage
-    print('{} profit target {}, == {}'.format(token,target_percentage,total_target))
-    return target_percentage
-def loss(token,current_holdings,loss):
-    token = token
-    print('\n\n {} loss'.format(token))
-    current_holdings = current_holdings
-    target_percentage = current_holdings * .1
-    total_loss = current_holdings-target_percentage
-    print('{} stop loss {}, == {}'.format(token,target_percentage,total_loss))
-    return target_percentage
+# def profit_target(token,current_holdings,target_percentage):
+#     token = token
+#     print('\n\n {} target'.format(token))
+#     current_holdings = current_holdings
+#     target_percentage = current_holdings * .3
+#     total_target = current_holdings+target_percentage
+#     print('{} profit target {}, == {}'.format(token,target_percentage,total_target))
+#     return target_percentage
+# def loss(token,current_holdings,loss):
+#     token = token
+#     print('\n\n {} loss'.format(token))
+#     current_holdings = current_holdings
+#     target_percentage = current_holdings * .1
+#     total_loss = current_holdings-target_percentage
+#     print('{} stop loss {}, == {}'.format(token,target_percentage,total_loss))
+#     return target_percentage
 
 
 def moving_20average(a, n=25) :
