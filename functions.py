@@ -10,8 +10,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import AdaBoostRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split,TimeSeriesSplit
-# apiKey = "1a824261af5b56f17e51f86097bacd51"
-# apiSecret = "yh68uZG5ufDpJNJD5B1oIN+uQZW/XDKGVqGP8rg/9d73bWFv4I4PpRWZk17RjTAkSebU97t/DITKZPLtJFbBwg=="
+
 # passphrase = "t9jtvccivy"
 
 style.use('fivethirtyeight')
